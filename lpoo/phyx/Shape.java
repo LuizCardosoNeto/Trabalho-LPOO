@@ -7,7 +7,7 @@ import lpoo.math.*;
  *
  * @author Luiz Cardoso Neto, José Guilherme
  */
-public class Shape
+public abstract class Shape
 {
     String name;
     Vector3 localVector;
