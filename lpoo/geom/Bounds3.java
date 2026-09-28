@@ -58,4 +58,4 @@ public final class Bounds3
   private Vector3 min;
   private Vector3 max;
 
-} // Bounds3
+} // Bounds3 luiz viadao
