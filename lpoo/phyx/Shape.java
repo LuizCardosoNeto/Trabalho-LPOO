@@ -23,6 +23,5 @@ public abstract class Shape
         this.pose = pose;
     }
 
-    Vector3 localCenterOfMass()
     Matriz3 localInertiaTensor()
 }
