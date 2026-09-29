@@ -10,8 +10,19 @@ import lpoo.math.*;
 public abstract class Shape
 {
     String name;
-    Vector3 localVector;
     Pose pose;
-    Vector3 localCenterOfMass;
-    Matriz3 localInertiaTensor;
+
+    //Constructors
+    public Shape()
+    {
+        //do nothing
+    }
+    public Shape(String name; Pose pose)
+    {
+        this.name = name;
+        this.pose = pose;
+    }
+
+    Vector3 localCenterOfMass()
+    Matriz3 localInertiaTensor()
 }

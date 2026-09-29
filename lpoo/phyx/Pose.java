@@ -8,6 +8,12 @@ import lpoo.math.*;
  */
 public class Pose
 {
-    private Matrix3 rotation;
-    private Vector3 translation;
+    private Matrix3 R;
+    private Vector3 t;
+
+    public Pose(Matrix3 R, Vector3 t)
+    {
+        this.R = R;
+        this.t = t;
+    }
 }
