@@ -9,10 +9,6 @@ import lpoo.math.*;
  */
 public abstract class Primitive extends Shape
 {
-    public Vector3 centerOfMass()
-    {
-        localCenterOfMass = new Vector3(0,0,0);
-        return localCenterOfMass;
-    }
+
     
 }

@@ -22,6 +22,13 @@ public abstract class Shape
         this.name = name;
         this.pose = pose;
     }
-
-    Matriz3 localInertiaTensor()
+    Vector3 centerOfMass()
+    {
+        CenterOfMass = new Vector3(0,0,0);
+        return CenterOfMass;
+    }
+    Matriz3 InertiaTensor()
+    {
+        //do something
+    }
 }

@@ -8,12 +8,13 @@ import lpoo.math.*;
  */
 public class Pose
 {
-    private Matrix3 R;
+    private Quaternion q;
     private Vector3 t;
 
     public Pose(Matrix3 R, Vector3 t)
     {
-        this.R = R;
+        this.q = q;
         this.t = t;
     }
+    
 }
