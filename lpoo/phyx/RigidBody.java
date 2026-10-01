@@ -11,11 +11,11 @@ public final class RigidBody
 {
   private Shape shape;
 
-  float surfaceArea();
-  float volume();
-  float mass();
-  Vector3 centerOfMass();
-  Matriz3 inertiaTensor();
+  float getSurfaceArea();
+  float getVolume();
+  float getMass();
+  Vector3 getGlobalCenterOfMass();
+  Matriz3 getGlobalinertiaTensor();
   Bounds3 bounds();
 
 } // RigidBody
